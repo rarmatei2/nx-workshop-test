@@ -45,6 +45,7 @@
     "@nrwl/nx-cloud": "^10.1.9",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~6.5.5",
+    "surge": "^0.21.7",
     "zone.js": "^0.10.2"
   },
   "devDependencies": {
