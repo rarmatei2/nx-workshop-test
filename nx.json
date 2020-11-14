@@ -15,14 +15,19 @@
       "tags": []
     },
     "api-util-notifications": {
-      "tags": ["type:util'", "scope:api"]
+      "tags": [
+        "type:util'",
+        "scope:api"
+      ]
     },
     "store": {
       "tags": []
     },
     "store-e2e": {
       "tags": [],
-      "implicitDependencies": ["store"]
+      "implicitDependencies": [
+        "store"
+      ]
     },
     "store-feature-game-detail": {
       "tags": []
@@ -32,7 +37,9 @@
     },
     "store-ui-shared-e2e": {
       "tags": [],
-      "implicitDependencies": ["store-ui-shared"]
+      "implicitDependencies": [
+        "store-ui-shared"
+      ]
     },
     "store-util-formatters": {
       "tags": []
@@ -43,15 +50,17 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
+        "accessToken": "NjBjMTA1N2QtMmRiNC00ZGVjLWIwMWQtNjZiYzczNjQ2MTk3fHJlYWQtd3JpdGU=",
         "cacheableOperations": [
           "build",
-          "lint",
           "test",
-          "e2e",
-          "build-storybook"
-        ]
+          "lint",
+          "e2e"
+        ],
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
