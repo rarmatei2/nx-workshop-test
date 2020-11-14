@@ -14,7 +14,7 @@ export class AppComponent {
     @Inject('baseUrl') private baseUrl: string
   ) {}
 
-  title = 'Board Game Hoard';
+  title = 'Board Game Hoard 2';
   formatRating = formatRating;
   games = this.http.get<Game[]>(`${this.baseUrl}/api/games`);
 }
